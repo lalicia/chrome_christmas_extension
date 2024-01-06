@@ -6,6 +6,20 @@ There's also an article that pretty much mirrors the process [here](https://argl
 
 Images were sourced from [icon-icons.com](https://icon-icons.com/)
 
+Presently this extension is designed to function one way when activated from google.com and another when on another site. It hasn't been widely tested and isn't robust! :) But it's a decent start to see how these things are made.
+
+## To Use
+
+Clone the repo, and `npm install`
+
+Run `npm build` to create the dist folder that's required for uploading to Google.
+
+Visit [chrome://extensions](chrome://extensions/) and ensure Developer mode is toggled on.
+
+Select 'Load unpacked' and navigate to the dist folder of the project. NB it must be the dist folder, not the project main folder. Upload and the extension will appear in a tile on the page.
+
+Open a new browser tab, go to google.com or another website (EG example.com) and navigate to your extensions. Select 'What's this? What's this?' and have fun!
+
 # And the instructions that came in the box...
 
 # React + TypeScript + Vite
