@@ -1,3 +1,13 @@
+# Basic Chrome Extension with Vite and Typescript
+
+I mostly followed this [YouTube tutorial](https://www.youtube.com/watch?v=GGi7Brsf7js) by Train to Code.
+
+There's also an article that pretty much mirrors the process [here](https://arglee.medium.com/chrome-extensions-using-vite-typescript-react-stepwise-process-6d013f5332b9).
+
+Images were sourced from [icon-icons.com](https://icon-icons.com/)
+
+# And the instructions that came in the box...
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -17,12 +27,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
